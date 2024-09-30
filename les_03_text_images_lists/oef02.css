@@ -28,7 +28,7 @@ img:hover{
 
 a{
    color: rgb(12, 12, 56);
-   transition: all 2s ease-in;
+   transition: all 2s ease-in;   
 }
 
 a:hover{
@@ -40,5 +40,12 @@ a:visited{
 }
 
 div{
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.position_bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
 }
