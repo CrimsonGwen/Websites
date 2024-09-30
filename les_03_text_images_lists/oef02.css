@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    color:  #FA6432;
+}
+
+hr{
+    border-width: 1px;
+    border-color: darkblue;
+}
+
+img{
+    border-radius: 15%;
+    margin: 15px;
+    float: left;
+    opacity: 50%;
+}
+
+img:hover{
+    box-shadow: black;
+    opacity: 100%;
+}
+
+a{
+   color: rgb(12, 12, 56);
+   transition: all 2s ease-in;
+}
+
+a:hover{
+    color: #FA6432;
+}
+
+a:visited{
+    text-decoration: underline;
+}
+
+div{
+    padding: 15px;
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    color: darkblue;
+}
+
+.logo{
+    width: 200px;
+}
+
+hr{
+    border-width: 1px;
+    border-color: darkblue;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    color: #FA6432;
+    font-size: 2em;
+}
+
+p{
+    margin: 0px;
+    padding: 15px;
+}
+
+a:hover{
+    color: orange;
+}
+
+div{
+    background-color: rgb(12, 12, 56);
+    text-align: center;
+    padding: 5px;
+}
