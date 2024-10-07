@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    height: 50px;
+    margin: 4px;
+}
+
+.Heading{
+    background-color: lightgray;
+    font-weight: 700;
+}
+
+#column2{
+    width: 200px;
+}
+
+#column3{
+    width: 200px;
+}
+
+#column4{
+    width: 100px;
+}
+
+#column5{
+    width: 100px;
+}
+
+.groen{
+    background-color: green;
+}
+
+.rood{
+    background-color: red;
+}

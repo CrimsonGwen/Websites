@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td{
+    border: 1px solid darkblue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.columnOne{
+    font-weight: 700;
+    background-color: #009cab;
+    width: 75px;
+    color: white;
+}
+
+.rowOne{
+    font-weight: 700;
+    background-color: #ED6338;
+    color: white;
+}
+
+tr{
+    height: 50px;
+}
