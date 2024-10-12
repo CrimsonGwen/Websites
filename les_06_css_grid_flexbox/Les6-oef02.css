@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Grid-cont{
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 10px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.Grid-cont>div{
+    text-align: center;
+}
+
+.Grid-ItemBl{
+    background-color: blue;
+
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Grid-ItemAs{
+    background-color: green;
+
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Grid-ItemMa{
+    background-color: black;
+
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Grid-ItemFo{
+    background-color: orange;
+
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

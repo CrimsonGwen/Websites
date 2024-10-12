@@ -1,0 +1,37 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: url(kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.No{
+    position: fixed;
+    color: white;
+    left: 50%;
+    z-index: 1;
+}
+
+.Os{
+    position: fixed;
+    color: white;
+    top: 50%;
+    left: 97%;
+    z-index: 1;
+}
+
+.Zu{
+    position: fixed;
+    color: white;
+    top: 97%;
+    left: 50%;
+    z-index: 1;
+}
+
+.We{
+    position: fixed;
+    color: white;
+    top: 50%; 
+    z-index: 1;
+}
